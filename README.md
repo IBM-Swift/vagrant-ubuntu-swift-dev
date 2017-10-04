@@ -25,3 +25,7 @@ $ vagrant up
 ```
 
 Once your VM has been provisioned, you can connect to it using the `vagrant ssh` command.
+
+# Building Swift
+
+See [Building Swift](https://github.com/apple/swift#building-swift).

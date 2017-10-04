@@ -44,7 +44,10 @@ Vagrant.configure(2) do |config|
     sudo DEBIAN_FRONTEND=noninteractive apt-get install -y libncurses5-dev
     sudo DEBIAN_FRONTEND=noninteractive apt-get install -y pkg-config
     sudo DEBIAN_FRONTEND=noninteractive apt-get install -y python-setuptools
-    
+    sudo DEBIAN_FRONTEND=noninteractive apt-get install -y libcurl4-openssl-dev
+    sudo DEBIAN_FRONTEND=noninteractive apt-get install -y systemtap-sdt-dev
+    sudo DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata
+
     echo "Installing libdispatch prerequisites..."
     sudo DEBIAN_FRONTEND=noninteractive apt-get install -y autoconf
     sudo DEBIAN_FRONTEND=noninteractive apt-get install -y libtool
